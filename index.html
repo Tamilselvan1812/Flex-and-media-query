@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        display:flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+  .one {
+    background-color: chartreuse;
+    margin: 5px;
+    height: 100px;
+    flex-basis: 15%;
+    
+  }
+ .two{
+    background-color: yellow;
+    margin: 5px;
+    height: 100px;
+    flex-basis: 15%;
+    
+  }
+  .three {
+    background-color: red;
+    margin: 5px;
+    height: 100px;
+    flex-basis: 15%;
+    
+  }
+  .four {
+    background-color: blue;
+    margin: 5px;
+    height: 100px;
+    flex-basis: 15%;
+    
+  }
+  
+  @media screen and (max-width:800px) {
+    .one{
+        flex-basis: 40%;
+    }
+    
+  }
+@media screen and (max-width:600px) {
+    .one{
+        flex-basis: 100%;
+    }
+    
+  }
+   @media screen and (max-width:800px) {
+    .two{
+        flex-basis: 40%;
+    }
+    
+  }
+@media screen and (max-width:600px) {
+    .two{
+        flex-basis: 100%;
+    }
+    
+  }
+ @media screen and (max-width:800px) {
+    .three{
+        flex-basis: 40%;
+    }
+    
+  }
+@media screen and (max-width:600px) {
+    .three{
+        flex-basis: 100%;
+    }
+    
+  }
+   @media screen and (max-width:800px) {
+    .four{
+        flex-basis: 40%;
+    }
+    
+  }
+@media screen and (max-width:600px) {
+    .four{
+        flex-basis: 100%;
+    }
+    
+  }
+  
+</style>
+<body>
+  <div class="container">
+    <div class="one"></div>
+     <div class="two"></div>
+      <div class="three"></div>
+       <div class="four"></div>
+  </div>
+</html>
